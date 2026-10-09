@@ -110,7 +110,7 @@ weight = int(input("Weight = "))
 half = int(input("Half-life = "))
 time = int(input("Time = "))
 count = time / half
-ans = 500 * 0.5 ** count
+ans = weight * 0.5 ** count
 print(ans)
 
 ------------------------------------------------------------------------------------------------------------
